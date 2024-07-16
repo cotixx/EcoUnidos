@@ -1,0 +1,137 @@
+.section1{
+    background-image: url('img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    padding: 1px;
+    background-size: 100%;
+}
+
+.div1{
+    background-color: #ffffff9a;
+    text-align: center;
+    width: 650px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.section1 a{
+    background-color: #69D774;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    margin-left: 295px;
+    margin-top: 10px;
+    box-shadow: 0 0 30px rgba(29, 151, 16, 0.4);
+}
+
+.div1 p, .div h2, .div1h3{
+    font-size: 20px;
+}
+
+.section2{
+    background-image: linear-gradient(#69D774,#FBD570);
+    min-height: 100vh;
+}
+.globos{
+    display: flex;
+}
+.section2 img{
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.contaminacion{
+    background-color: #ffffffd6;
+    width: 700px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    padding-top: 1px;
+    margin-left: 400px;
+    margin-top: -180px;
+    margin-bottom: 50px;
+}
+
+
+.tipo{
+    background-color: #ffffffd6;
+    width: 600px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 2px;
+    margin-left: 40px;
+}
+
+.globo1 img{
+    margin-left: -8px;
+}
+.globo1 h3{
+    margin-top: -220px;
+    margin-bottom: 215px;
+}
+.globo1 a{
+    background-color: #FFB900;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+.globo1{
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+    justify-content: flex-start;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+.section3{
+    background-image: url('img/seccion3.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 1px;
+}
+
+.sec3 {
+    background-color: #ffffffb5;
+    width: 900px;
+    text-align: center;
+    margin-left: 130px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+.burbuja{
+    background-image: linear-gradient(#69D774,#FFB900);
+    margin: 20px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    margin-left: 45px;
+    margin-top: 100px;
+    box-shadow: 0 20px 10px rgba(0,0,0,0.3);
+    border-style: solid;
+    border-color: #535353;
+}
+
+.burbuja a{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}

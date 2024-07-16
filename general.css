@@ -5,7 +5,7 @@ body{
 /* Estilos para el header y la navegación */
 header {
     background-color: #69D774; /* Color de fondo verde */
-    padding: 10px 10px;
+    padding: 16px 10px;
 }
 
 .nav {
@@ -55,4 +55,10 @@ footer{
 footer a{
     justify-content: center;
     margin-right: 10px;
+}
+.fa-brands {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 1px;
+    text-align: center;
 }
