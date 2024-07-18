@@ -1,11 +1,18 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-/* Estilos para el header y la navegación */
+
 header {
-    background-color: #69D774; /* Color de fondo verde */
+    background-color: #69D774; 
     padding: 16px 10px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
 }
 
 .nav {
@@ -22,24 +29,31 @@ header {
 }
 
 .menu li {
-    margin-right: 20px; /* Espacio entre los elementos del menú */
+    margin-right: 20px; 
 }
 
 .menu li a {
     text-decoration: none;
-    color: #ffffff; /* Color del texto */
+    color: #ffffff; 
     font-weight: bold;
     cursor: pointer;
     font-family: Arial;
+    padding-left: 25px;
     
+}
+
+.menu li a:hover{
+    color: darkgreen;
+    transform: scale(1.1);
 }
 
 .nav p {
     margin: 0;
     font-size: 20px; /* Tamaño de la fuente para el texto ECOUNIDOS */
-    color: #ffffff; /* Color del texto */
+    color: #ffffff; 
     font-weight: bold;
     font-family: Arial;
+    padding-right: 25px;
 }
 
 footer{
@@ -55,10 +69,68 @@ footer{
 footer a{
     justify-content: center;
     margin-right: 10px;
+    display: inline-block;
+    justify-content: space-around;
 }
 .fa-brands {
     color: #ffffff;
     font-size: 40px;
     padding: 1px;
-    text-align: center;
+}
+
+.fa-brands:hover{
+    color: darkgreen;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .menu li {
+        margin-right: 15px;
+    }
+    .nav p {
+        font-size: 18px;
+    }
+    .fa-brands {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .nav p {
+        font-size: 16px;
+    }
+    .fa-brands {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 12px 5px;
+    }
+    .menu li {
+        margin-bottom: 8px;
+    }
+    .nav p {
+        font-size: 14px;
+    }
+    .fa-brands {
+        font-size: 25px;
+    }
+    footer {
+        font-size: 12px;
+        padding: 8px 0;
+    }
 }
