@@ -1,93 +1,59 @@
 /*---------------------------------------------SECCION 0--------------------------------------------------*/
-.section0{
+#section0{
     background-image: url('img/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
     padding: 1px;
+    min-height: 100vh;
+    justify-content: space-around;
+    align-content: center;
+    min-width: 100vh;
 }
-.section0 h1{
+#section0 h1{
+    margin-left: 10%;
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
-    width: 400px;
- 
-    text-align: center center;
-    margin-left: 100px;
-    margin-top: 180px;
     color: #4F9A56;
-    text-shadow: 
-        -1px -1px 0 #23232344,  
-        1px -1px 0 #23232344,
-        -1px 1px 0 #23232344,
-        1px 1px 0 #23232344; 
-
 }
+
 /*---------------------------------------------SECCION 1--------------------------------------------------*/
-.section1{
+#section1{
     background-image: url('img/fondo2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 100vh;
     padding: 1px;
-    background-size: 100%;
+    background-size: cover;
 }
 
-.div1{
+#container1{
     background-color: #ffffffe0;
+    width: 50%;
+    padding: 1px 10px;
     text-align: center;
-    width: 650px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 50px;
-    margin-top: 40px;
-    margin-bottom: 25px;
     box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
-.section1 a{
+#section1 a{
     background-color: #69D774;
-    text-decoration: none;
     padding: 10px;
-    color: black;
-    margin-left: 295px;
-    margin-top: 10px;
-    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.4);
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    border-width: 0.2px;
-    border-style: solid;
-    
+    text-decoration: none;
+    color: #000000;
+    margin-left: 27%;
 }
 
-.div1 p, .div h2, .div1 h3{
-    font-size: 19px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.div1 h3{
-    font-weight: 600;
-}
-.div1 h2{
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-}
-
-.section1 a:hover{
+#section1 a:hover{
     color: #ffffff;
 }
 
 /*---------------------------------------------SECCION 2--------------------------------------------------*/
 .section2{
-    background-image: linear-gradient(#69D774,#FBD570);
+    background-image: linear-gradient(#69d774,#FBD570);
     min-height: 100vh;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
